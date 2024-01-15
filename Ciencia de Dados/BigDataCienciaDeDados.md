@@ -24,6 +24,21 @@ Partindo do princípio que é uma ciência, a ideia é que se gere hipóteses a 
 * ajuste do modelo;
 * validação do modelo.
 
+# Visualização
+
+https://datavizproject.com/ <br>
+
+* Um dos principais artifícios da comunicação da humanidade.
+
+* Envolve a arte de facilitar a percepção do todo.
+
+* A ideia principal de uma visualização de dados por meio de imagens, gráficos ou cartografias é simplificar conteúdos de forma a permitir a compreensõa de uma ideia geral do todo.
+
+* É um recurso que facilita o processo de compreensão e de tomada de decisão em praticamente todas as áreas do conhecimento.
+
+* É importante entender para que serve cada tipo de gráfico e a melhor forma de visualizar os dados.
+
+
 # Big Data
 Dados muito grandes ou muito complexos para serem gerenciados por técnicas tradicionais de processamento, análise e armazenamento de dados.<br><br>
 
@@ -75,3 +90,4 @@ O que aconteceu no passado?
 **DS** faz análise preditiva e prescritiva. <br>
 Por quê? O que irá...? O que devo fazer? <br>
 Projeção de futuro para tomada de decisão.
+

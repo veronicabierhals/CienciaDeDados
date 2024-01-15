@@ -48,3 +48,30 @@ https://pandas.pydata.org/docs/
 * Contém uma coleção ordenada de colunas, em que cada uma pode ter um tipo de valor diferente (boolenao, string, numérico, entre outros).
 * Tem índice tanto para linha quanto para coluna, podendo ser imaginado como um dicionário (dict)de Series, todos compartilhando o mesmo índice.
 * Capacidade de trabalhar com vários tipos de dados como se fosse uma tabela do banco de dados.
+
+## Scikit-Learn
+https://scikit-learn.org/stable/ <br>
+
+* Biblioteca de aprendizado máquina de código aberto que oferece suporte ao aprendizado supervisionado e não supervisionado.
+* Fornece ferramentas para ajuste de modelo, pré-processamento de dados, seleção e avaliação de modelo, entre outros utilitários.
+* Construída em NumPy, SciPy e Matplotlib.
+* Oferece datasets que podem ser utilizados para realizar testes e aprender a utilizá-la:
+    * Bosto House-Prices Dataset.
+    * Breast Cancer Dataset.
+    * Diabetes Dataset.
+    * Digits Dataset.
+    * Oris Dataset.
+
+## MatPlotLib e Seaborn
+* Fazem parte de um conjunto de bibliotecas open source paea visualização de dados. Para geração de gráficos.
+* Vantagens: praticidade, visual mais bonito, diversidade de possibilidades (detalhes), configurações automáticas, entre outros.
+
+### MatPlotLib
+* É a base para grande parte de outras bibliotecas.
+* É uma das mais completas.
+* Muitas configurações precisam ser feitas manualmente, com linhas de programação.
+* Apresenta gráficos mais crus.
+
+### Seaborn
+* É baseada na MatPlotLib.
+* Conjunto de parâmetros que se autoconfiguram, para se adaptar ao conjunto de dados e muitas informações não precisam ser explicitadas, pois já estão configuradas.
