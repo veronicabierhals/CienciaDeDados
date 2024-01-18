@@ -35,4 +35,4 @@ for linha in linhas:
     print(dados[3].text)
     print('------')
 
-# continua no arquivo Colab
+# continua no arquivos Colab
