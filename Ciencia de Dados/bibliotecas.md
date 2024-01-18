@@ -49,6 +49,16 @@ https://pandas.pydata.org/docs/
 * Tem índice tanto para linha quanto para coluna, podendo ser imaginado como um dicionário (dict)de Series, todos compartilhando o mesmo índice.
 * Capacidade de trabalhar com vários tipos de dados como se fosse uma tabela do banco de dados.
 
+### leitura de arquivos
+
+* **read_csv**: lê dados que utilizam vírgula como delimitador, o arquivo pode vir de um arquivo ou de um endereço URL;
+
+* **read_excel**: lê dados tabulares de um arquivo Excel XLS ou XLSX;
+
+* **read_html**: lê as tabelas que estão em um arquivo HTML especificado;
+
+* **read_json**: lê dados de uma representação em string JSON.
+
 ## Scikit-Learn
 https://scikit-learn.org/stable/ <br>
 
