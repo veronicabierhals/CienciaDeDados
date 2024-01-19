@@ -47,7 +47,8 @@ print(df1.sample(2))  # ver valores aleatórios
 
 # gerar um novo dataframe a partir do anterior
 
-df2 = pd.DataFrame(dados, columns=['ano', 'estado', 'pop']) #define as sequencias que as colunas irão aparecer
+# define as sequencias que as colunas irão aparecer
+df2 = pd.DataFrame(dados, columns=['ano', 'estado', 'pop'])
 
 print(df2)
 
@@ -60,24 +61,24 @@ print(df2.ano)
 # consultar tipos das colunas
 print(df2.dtypes)
 
-#atribuir valores/ criar novas colunas
+# atribuir valores/ criar novas colunas
 
-df2['estimativa']=50
+df2['estimativa'] = 50
 print(df2)
 
-df2['estimativa']=np.arange(6) # valor precisa ser = tamanho da coluna
+df2['estimativa'] = np.arange(6)  # valor precisa ser = tamanho da coluna
 print(df2)
 
 # criar/copiar um dataframe a partir de um já existente
-df3=df2
+df3 = df2
 print(df3)
 
 # copiar apenas uma coluna de um dataframe já existente
-df3=df2['ano']
+df3 = df2['ano']
 print(df3)
 
 # gera uma nova coluna com o resultado
-df2['nao Parana']=df2.estado!='PR'
+df2['nao Parana'] = df2.estado != 'PR'
 print(df2)
 
 # excluir coluna
@@ -104,22 +105,22 @@ print(df2.count())
 
 # alterar informações de uma dataframe já existente
 
-#altera nomes colunas
-df2.columns=['Ano', 'Estado', 'Populacao', 'Estimativa']
+# altera nomes colunas
+df2.columns = ['Ano', 'Estado', 'Populacao', 'Estimativa']
 print(df2)
 
 # analisar valores das tabelas
 print(df2.describe(include='all'))
 
 # alterar valores dos dados
-df2['Ano']=df2['Ano']+2
+df2['Ano'] = df2['Ano']+2
 print(df2)
 
 # mostrar valores que ano seja maior que 2021
-print(df2[df2['Ano']>2021])
+print(df2[df2['Ano'] > 2021])
 
 # gerar nova tabela a partir de uma já existente com uma condição específica
-df4=df2[df2['Ano']>2021]
+df4 = df2[df2['Ano'] > 2021]
 print(df4)
 
 # retira parte de uma tabela para pesquisa em questão, sem alterá-la
@@ -129,19 +130,19 @@ print(df4.drop('Ano', axis='columns'))
 print(df2.drop('Ano', axis='columns', inplace=True))
 
 # retira linhas de uma tabela para pesquisa em questão, sem alterá-la
-print(df2.drop([0,1]))
+print(df2.drop([0, 1]))
 
-#propagação na exclusão definitiva, apaga os dados da tabela em questão (cópia) e da tabela de origem
-dflinhas=df2
-dflinhas.drop([0,1], inplace=True)
+# propagação na exclusão definitiva, apaga os dados da tabela em questão (cópia) e da tabela de origem
+dflinhas = df2
+dflinhas.drop([0, 1], inplace=True)
 print(dflinhas)
 print(df2)
 
-#consultar valores de uma linha
+# consultar valores de uma linha
 print(df2.iloc[0])
 
-print(df2.iloc[1:3]) #mostra posição 1 e 2
+print(df2.iloc[1:3])  # mostra posição 1 e 2
 
-print(df2.iloc[1:3, [1,2]]) #mostra posição 1 e 2 das colunas 1 e 2
+print(df2.iloc[1:3, [1, 2]])  # mostra posição 1 e 2 das colunas 1 e 2
 
 print(df2)

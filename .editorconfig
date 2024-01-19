@@ -1,6 +1,6 @@
 # EditorConfig is awesome: https://EditorConfig.org
 
-# top-most EditorConfig file
+# Top-most EditorConfig file
 root = true
 
 [*]
@@ -8,5 +8,15 @@ indent_style = space
 indent_size = 4
 end_of_line = lf
 charset = utf-8
-trim_trailing_whitespace = false
-insert_final_newline = false
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.py]
+# Use spaces for indentation in Python files
+indent_style = space
+# Set the indentation size to 4 spaces
+indent_size = 4
+# Ensure there is a newline at the end of every Python file
+insert_final_newline = true
+# Trim trailing whitespace in Python files
+trim_trailing_whitespace = true

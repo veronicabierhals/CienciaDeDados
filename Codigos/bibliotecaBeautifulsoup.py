@@ -27,7 +27,7 @@ abre o site e busca no código HTML dele o nome da informação que deseja colet
 tabela = soup.find('table', {'id': 'table_id1'}).find('tbody')
 print(tabela)
 
-linhas=tabela.find_all('tr')
+linhas = tabela.find_all('tr')
 for linha in linhas:
     dados = linha.find_all('td')
     print(dados[0].text)

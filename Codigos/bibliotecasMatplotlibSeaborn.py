@@ -5,34 +5,34 @@ import seaborn as sns
 
 # gerar X, Y de pontos
 
-x=[1,2,3,4,5,6,7,8,9,10]
-y=[1,2,3,4,2,6,7,8,9,10]
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+y = [1, 2, 3, 4, 2, 6, 7, 8, 9, 10]
 
 # Plotar X,Y
-plt.scatter(x,y)
-#plt.show()
+plt.scatter(x, y)
+# plt.show()
 
 # gerar gráfico para o valor de Y sendo o quadrado do valor de X
-x1=np.arange(-100,100,1)
-#print(x1)
+x1 = np.arange(-100, 100, 1)
+# print(x1)
 
-plt.plot(x1,x1**2)
-#plt.show()
+plt.plot(x1, x1**2)
+# plt.show()
 
 # cortar o eixo X
-plt.plot(x1,(x1**2)-2000)
-#plt.show()
+plt.plot(x1, (x1**2)-2000)
+# plt.show()
 
 # dados fabricados
-dias=np.arange(1,31)
-#print(dias)
+dias = np.arange(1, 31)
+# print(dias)
 
-vacinados=np.random.randint(0,100,30)
-contagios=np.random.randint(0,700,30)
+vacinados = np.random.randint(0, 100, 30)
+contagios = np.random.randint(0, 700, 30)
 
-#print(vacinados)
+# print(vacinados)
 
-#plotar grafico com dados fabricados
+# plotar grafico com dados fabricados
 
 '''
 #plt.style.use('classic')
@@ -48,20 +48,20 @@ plt.show()
 
 # criar um dataframe com os dados fabricados
 
-dados=pd.DataFrame(dias, columns=['Dias'])
+dados = pd.DataFrame(dias, columns=['Dias'])
 
-dados['Contagios']=contagios
-dados['Vacinados']=vacinados
+dados['Contagios'] = contagios
+dados['Vacinados'] = vacinados
 
-#print(dados)
+# print(dados)
 
-#plotar grafico a partir do pandas
-#dados.plot(kind='bar', x='Dias', y='Vacinados')
-#plt.show()
+# plotar grafico a partir do pandas
+# dados.plot(kind='bar', x='Dias', y='Vacinados')
+# plt.show()
 
 # biblioteca Seaborn
 
 sns.barplot(data=dados, x='Dias', y='Contagios')
-#sns.barplot(data=dados, x='Dias', y='Vacinados', color='r')
+# sns.barplot(data=dados, x='Dias', y='Vacinados', color='r')
 sns.lineplot(data=dados, x='Dias', y='Vacinados', color='r')
 plt.show()
