@@ -18,6 +18,7 @@ Partindo do princípio que é uma ciência, a ideia é que se gere hipóteses a 
 ![ciência de dados](../img/cienciaDeDados.png)
 
 ## Processos de ciência de dados
+![Processos de Data Science](../img/processosDS.png)
 * Preparação dos dados;
 * análise exploratória;
 * escolha do modelo;
@@ -90,4 +91,6 @@ O que aconteceu no passado?
 **DS** faz análise preditiva e prescritiva. <br>
 Por quê? O que irá...? O que devo fazer? <br>
 Projeção de futuro para tomada de decisão.
+
+
 
