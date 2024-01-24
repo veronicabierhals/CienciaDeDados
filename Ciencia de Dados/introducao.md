@@ -13,12 +13,12 @@ Envolve princípios, processos e técnicas para entender fenômenos por meio da 
 Partindo do princípio que é uma ciência, a ideia é que se gere hipóteses a partir de uma observação e então utilize dados para compreender se a hipótese se confirmará ou não, utilizando de forma estratégica posteriormente.
 
 ## Diagrama de Venn
-![diagrama de Venn](../img/diagramaDeVenn.png)
+![diagrama de Venn](../Arquivos//img/diagramaDeVenn.png)
 <br><br>
-![ciência de dados](../img/cienciaDeDados.png)
+![ciência de dados](../Arquivos/img/cienciaDeDados.png)
 
 ## Processos de ciência de dados
-![Processos de Data Science](../img/processosDS.png)
+![Processos de Data Science](../Arquivos/img/processosDS.png)
 * Preparação dos dados;
 * análise exploratória;
 * escolha do modelo;
@@ -44,30 +44,6 @@ https://datavizproject.com/ <br>
 Dados muito grandes ou muito complexos para serem gerenciados por técnicas tradicionais de processamento, análise e armazenamento de dados.<br><br>
 
 Está preocupado com a tecnologia que pode ajudar a lidar com a grande quantidade de dados.<br><br>
-
-## Tipos de dados
-
-### Estruturados
-Possuem formato e comprimento definidos (nomes, datas, grupos de palavras).<br>
-
-Conjunto de dados definidos a partir de um esquema formalmente definido.<br>
-
-Ex: dados armazenados em banco de dados relacionais, estrutura XML regida por um documento XSD, dados de planilhas com clareza estrutural; dados oriundos de sensorese equipamentos (desde que com uma estrutura de metadados bem definidas).
-
-### Semi-estruturados
-Estrutura implícita e flexível, geralmente um meio termo entre a estruturação e a falta total de estruturação. <br>
-
-Mesmo a estrutura não sendo rígida, a existência mínima de uma estrutura implícita facilita a gestão dos dados. <br>
-
-Ex: arquivos tabulares em planilhas (formatos TSV e CSV), arquivos XML, conteúdos Web acompanhados de tags.
-
-### Não estruturados
-Não tem estrutura definida <br>
-
-A extração de informações nesses conjuntos de dados torna-se complexa do ponto de vista computacional.<br>
-
-Ex: áudios, vídeos,  documentos em formato texto, imagens (e fotos), dados de mídias sociais, etc.
-
 
 ## Características
 
