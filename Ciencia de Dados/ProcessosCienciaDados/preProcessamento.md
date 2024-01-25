@@ -119,3 +119,63 @@ Pode criar a falsa sensação de que um perfil de objeto é mais importante que 
 **Eliminar as redundâncias:**
 * eliminação dos objetos semelhantes;
 * combinação dos valores dos atributos dos objetos semelhantes.
+
+### **Dados com ruídos**
+
+Contêm objetos que, aparentemente, não pertencem a distribuição que gerou os dados analisados. <br>
+
+Variância ou erro aleatório no valor gerado de um atributo. <br>
+
+Um indicador de presença de ruído é a existência de outliers.
+Valores que estão além dos limites aceitáveis ou são muito diferentes dos demais valores observados para o esmo atributo. <br>
+
+**Técnicas para detecção e remoção de ruídos**
+
+Encestamento: suavisam o valor de um atributo. Primeiro os valores são ordenados, depois são divididos em faixas, e eses valores são substituídos por uma média ou mediana. <br>
+
+Agrupamento: valores que não formarem grupos são considerados ruidosos ou outliers. <br>
+
+Regressão ou classificação: procuram determinar um valor verdadeiro para um outlier.
+
+## **Tranformação de dados**
+
+Várias técnicas de machine learning estão limitadas à manipulação de valores em determinados tipos, alguns algoritmos estão restritos a valores numéricos, outros a valores qualitativos. <br>
+
+Em várias situações, a depender do modelo de machine learning utilizado, será necessário converter dados qualitativos a numéricos ou vice-versa. <br>
+
+Valores qualitativos nominais ou ordinais podem ser tratados de forma diferente. <br>
+
+Ex.: Redes Neurais Artificiais e Support Vector Machines lidam apenas com valores numéricos.
+
+Situações em que é necessária transformação de valor numérico para outro valor numérico, para evitar que um atributo predomine sobre o outro:
+* limites inferior e superior de valores dos atributos são muito diferentes;
+* vários atributos estão em escalas diferentes.
+* normalização por amplitude -> redefinindo uma nova escala de valores com limites máximo e mínimo;
+* padronização -> definição de valor central e um valor de espelhamento para todos os atributos.
+
+### **Redução da dimensionalidade**
+
+Tamanho horizontal do seu objeto, ou seja, a quantidade de atributos que um determinado objeto tem. <br>
+
+Exs.: em análise de imagens cada pixel representa um atributo; nos estudos de genética os dados dos gener apresentam milhares de atributos. <br>
+
+Grandes quantidades de atributos inviabilizam o processo. <br>
+
+**Redução de atributos**
+* melhora o desempenho;
+* reduz o curso operacional;
+* torna os resultados masi compreensíveis.
+
+**Técnicas utilizadas**
+* **Agregação**: substituem atributo originais por novos atributos formados pela combinação de grupos.
+    * Técnica mais conhecida: Análise de Componentes Principais (PCA).
+        * descorrelaciona estatisticamente os exemplos, reduzindo a dimensionalidade do conjunto de dados original pela eliminação das redundâncias.
+        * Áreas como biologia, finanças e medicina evitam agregar atributos, pois consideram os dados originais importantes para o processo de interpretação dos resultados.
+
+* **Seleção de atributos**: mantêm uma parte dos atributos originais e descartam os demais atributos.
+    * Técnicas automáticas para avaliar qualidade ou desempenho de um subconjunto de atributos:
+        * abordagem embutida;
+        * abordagem baseada em filtro;
+        * wrapper.
+
+
