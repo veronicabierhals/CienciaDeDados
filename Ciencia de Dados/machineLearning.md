@@ -88,3 +88,30 @@ Dados de:
 * treino: utilizados para criar o modelo (treinar). <br>
 * teste: verificar se o modelo realmente atende às expectativas.
 
+## Conceitos
+### **Overfitting**
+Sobreajuste <br>
+Quando se ajusta um modelo muito de perto às particularidades do conjunto de treinamento e obtém um modelo que funciona bem no conjunto de treinamento, mas não é capaz de generalizar para novos dados. <br>
+
+### **Underfitting**
+Subajuste <br>
+Modelo simples demais. <br>
+Modelos muito simples podenm não ser capazes de capturar todos os aspectos e variabilidade dos dados, saindo-se mal, mesmo no conjunto de treinamento. <br>
+No treinamento já é possível identificar que o modelo não se adapta ao conjunto de dados. <br>
+Se colocar dados diferentes ele tentará aproximar ao máximo aos dados de treinamento, sem fazer reajustes. <br>
+
+![Underfitting x Overfitting](../Arquivos/img/underfittingOverfitting.png)
+
+### **Viés**
+(bias em inglês)<br>
+Capacidade de um modelo em estabelecer a relação entre as variáveis e o objeto a ser predito. <br>
+
+### **Variância**
+Sensibilidade de um modelo. <br>
+Modelos muito sensíveis ao treinamento, não são capazes de acertar os resultados nos dados do teste.
+
+![Viés e Variância](../Arquivos/img/viesVariancia.png)
+
+### **Regularização**
+Técnica utilizada para minimizar problemas de variância. <br>
+Processo de penalização nos dados, de forma a minimizar o erro de generalização do modelo sem afetar muito o modelo baseado no treinamento.
