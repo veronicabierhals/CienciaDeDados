@@ -115,3 +115,57 @@ Modelos muito sensíveis ao treinamento, não são capazes de acertar os resulta
 ### **Regularização**
 Técnica utilizada para minimizar problemas de variância. <br>
 Processo de penalização nos dados, de forma a minimizar o erro de generalização do modelo sem afetar muito o modelo baseado no treinamento.
+
+## **Predição**
+
+Análise preditiva, ou capacidade de oprever resultados e gerar insights futuros, com base em dados do passado e do presente, com o uso de machine learning e modelagem estatística. <br>
+
+É usada pela maiores empresas do mundo para tomar decisões nos mais variados seguimentos e está atrelada a uma diversidade de aplicações e possibilidades. <br>
+
+Tentar prever o que irá acontecer e antecipar-se. <br>
+
+Analisar comportamentos e as ações que foram tomadas.
+
+### **Processos de predição**
+
+Quando se quer prever um evento com certa precisão, é necessário conhecer o passado e entebder a situação atual.
+
+* Extrair os fatos que estão acontecendo no momento.
+* Distinguir os fatos passados daqueles que acabaram de acontecer.
+* Deduzir possíveis cenários (criar hipóteses) que poderiam ocorrer.
+* Classificar os cenários (modelos de ML) de acordo com a probabilidade de acontecerem.
+
+### **Pilares de predição**
+
+A proporção varia de um negócio para o outro.
+
+* Conhecimento do negócio;
+* equipe de ciência de dados e tecnologia;
+* dados.
+
+### **Passos para realizar a predição**
+
+* Carregar os dados.
+* Escolher um algoritimo que realize a tarefa de predição.
+* Treinar o modelo.
+* Visualizar o modelo.
+* Testar o modelo.
+* Avaliar o modelo.
+
+### **Como escolher o algoritmo**
+
+É importante compreender a necessidade e as características dos projetos para decidir qual melhor algoritmo a ser utilizado. <br>
+
+Quanto mais o ciêntista de dados se apropriar dos modelos existentes maior a capacidade de decisão. <br>
+
+A escolha depende:
+* tipo de modelo - supervisionado ou não supervisionado;
+* dados que serão analisados;
+* hipóteses levantadas;
+* será uma regressão, classificação ou agrupamento.
+
+Começar os primeiros estudos e projetos com algum tipo de algoritmo e identificar se ele atende à necessidades. <br>
+
+Mudanças nos atributos (dados de entrada), diferentes técnicas de regularização, mudança nos parâmetros dos algoritmos podem apresentar resultados diferentes. <br>
+
+É importante conhecer com profundidade tudo que um algoritmo pode entregar e quais são as características que impactam diretamente nos resultados.
