@@ -110,7 +110,7 @@ Capacidade de um modelo em estabelecer a relação entre as variáveis e o objet
 Sensibilidade de um modelo. <br>
 Modelos muito sensíveis ao treinamento, não são capazes de acertar os resultados nos dados do teste.
 
-![Viés e Variância](../Arquivos/img/viesVariancia.png)
+![Viés e Variância](.../)
 
 ### **Regularização**
 Técnica utilizada para minimizar problemas de variância. <br>
